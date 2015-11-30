@@ -1,0 +1,20 @@
+*.exe
+*.pdb
+*.manifest
+Console Sample/bin/Debug/*.*
+Console Sample/bin/Release/*.*
+Console Sample/obj/Release/*.*
+Console Sample/obj/Debug/*.*
+Dicidir-SDK/obj/Release/*.*
+Dicidir-SDK/obj/Debug/*.*
+Dicidir-SDK/bin/Release/*.*
+Dicidir-SDK/bin/Debug/*.*
+dist/Dicidir-SDK.dll
+dist/Dicidir-SDK.dll.config
+Decidir-SDK/obj/Release/*.*
+Decidir-SDK/obj/Debug/*.*
+Decidir-SDK/bin/Release/*.*
+Decidir-SDK/bin/Debug/*.*
+Decidir-SDK/obj/Release/TempPE/Service References.AuthorizeService.Reference.cs.dll
+Decidir-SDK/obj/Release/TempPE/Service References.OperationService.Reference.cs.dll
+dist/Decidir-SDK.dll.config
