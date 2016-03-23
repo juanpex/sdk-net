@@ -16,12 +16,12 @@ namespace Console_Sample
     {
         static Decidir decidir;
 
-        static String MERCHANT = "22067736";
+        static String MERCHANT = "00201114";
         static String ENCODINGMETHOD = "XML";
-        static String SECURITY = "RV82RVHO5T0O5CZUUTX2FLHU";
+        static String SECURITY = "U4OQQNZJDKN1ZI37D8QOONXD";
 
         //Authentification and Endpoint
-        static string authorization = "PRISMA f3d8b72c94ab4a06be2ef7c95490f7d3";
+        static string authorization = "PRISMA U4OQQNZJDKN1ZI37D8QOONXD";
         static int endpoint = Decidir.sandbox;//Developer sandbox
         //static int endpoint = Decidir.production; //produccion
 
@@ -33,7 +33,7 @@ namespace Console_Sample
 
             authorizeSample();
             operationSample();
-
+            Console.ReadLine();
         }
 
         public static Dictionary<string, string> getHeaders()
@@ -129,7 +129,7 @@ namespace Console_Sample
         }
         public static GetByOperationData initGetData()
         {
-            GetByOperationData data = new GetByOperationData(MERCHANT, "123456");
+            GetByOperationData data = new GetByOperationData(MERCHANT, "hd_soap_09");
             return data;
         }
         

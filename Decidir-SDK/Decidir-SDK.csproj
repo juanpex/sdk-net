@@ -41,7 +41,6 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Service References\AuthorizeService\Authorize.wsdl" />
-    <None Include="Service References\OperationService\Operation.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -116,6 +115,7 @@
     <None Include="Service References\OperationService\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\OperationService\Operation1.wsdl" />
     <None Include="Service References\OperationService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>

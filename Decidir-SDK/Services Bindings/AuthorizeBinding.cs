@@ -20,7 +20,7 @@ namespace Decidir_SDK
     public class AuthorizeEndpoint : EndpointAddress
     {
         public AuthorizeEndpoint(string uri)
-            : base(uri + @"/Authorize.AuthorizeHttpsSoap12Endpoint")
+            : base(uri + @"1.1/Authorize.AuthorizeHttpsSoap12Endpoint")
         {
         }
     }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="D3AjfK+BpW14y6W0E+aDTRHwDO4=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="Nuu8ECn4hinALkhEGhhYMJYR2U4=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="OperationSoap11Binding">
       <properties>
@@ -375,10 +375,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="OperationHttpsSoap11Endpoint" contract="OperationService.OperationPortType" bindingType="basicHttpBinding" address="https://192.168.135.35:8443/services/t/1.1/Operation.OperationHttpsSoap11Endpoint" bindingConfiguration="OperationSoap11Binding">
+    <endpoint name="OperationHttpsSoap11Endpoint" contract="OperationService.OperationPortType" bindingType="basicHttpBinding" address="https://192.168.135.35:8443/services/t/decidir.net/Operation.OperationHttpsSoap11Endpoint" bindingConfiguration="OperationSoap11Binding">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>https://192.168.135.35:8443/services/t/1.1/Operation.OperationHttpsSoap11Endpoint</serializedValue>
+          <serializedValue>https://192.168.135.35:8443/services/t/decidir.net/Operation.OperationHttpsSoap11Endpoint</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -460,10 +460,10 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="OperationHttpSoap11Endpoint" contract="OperationService.OperationPortType" bindingType="basicHttpBinding" address="http://192.168.135.35:8480/services/t/1.1/Operation.OperationHttpSoap11Endpoint" bindingConfiguration="OperationSoap11Binding1">
+    <endpoint name="OperationHttpSoap11Endpoint" contract="OperationService.OperationPortType" bindingType="basicHttpBinding" address="http://192.168.135.35:8480/services/t/decidir.net/Operation.OperationHttpSoap11Endpoint" bindingConfiguration="OperationSoap11Binding1">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://192.168.135.35:8480/services/t/1.1/Operation.OperationHttpSoap11Endpoint</serializedValue>
+          <serializedValue>http://192.168.135.35:8480/services/t/decidir.net/Operation.OperationHttpSoap11Endpoint</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -545,10 +545,10 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="OperationHttpsSoap12Endpoint" contract="OperationService.OperationPortType" bindingType="customBinding" address="https://192.168.135.35:8443/services/t/1.1/Operation.OperationHttpsSoap12Endpoint" bindingConfiguration="OperationSoap12Binding">
+    <endpoint name="OperationHttpsSoap12Endpoint" contract="OperationService.OperationPortType" bindingType="customBinding" address="https://192.168.135.35:8443/services/t/decidir.net/Operation.OperationHttpsSoap12Endpoint" bindingConfiguration="OperationSoap12Binding">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>https://192.168.135.35:8443/services/t/1.1/Operation.OperationHttpsSoap12Endpoint</serializedValue>
+          <serializedValue>https://192.168.135.35:8443/services/t/decidir.net/Operation.OperationHttpsSoap12Endpoint</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -630,10 +630,10 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="OperationHttpSoap12Endpoint" contract="OperationService.OperationPortType" bindingType="customBinding" address="http://192.168.135.35:8480/services/t/1.1/Operation.OperationHttpSoap12Endpoint" bindingConfiguration="OperationSoap12Binding">
+    <endpoint name="OperationHttpSoap12Endpoint" contract="OperationService.OperationPortType" bindingType="customBinding" address="http://192.168.135.35:8480/services/t/decidir.net/Operation.OperationHttpSoap12Endpoint" bindingConfiguration="OperationSoap12Binding">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://192.168.135.35:8480/services/t/1.1/Operation.OperationHttpSoap12Endpoint</serializedValue>
+          <serializedValue>http://192.168.135.35:8480/services/t/decidir.net/Operation.OperationHttpSoap12Endpoint</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

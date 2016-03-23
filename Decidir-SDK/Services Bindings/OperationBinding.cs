@@ -23,7 +23,7 @@ namespace Decidir_SDK
     public class OperationsEndpoint : EndpointAddress
     {
         public OperationsEndpoint(string uri)
-            : base(uri + @"/services/Operations")
+            : base(uri + @"decidir.net/Operation.OperationHttpSoap12Endpoint")
         {
         }
     }

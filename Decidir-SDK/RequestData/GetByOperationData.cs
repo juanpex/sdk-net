@@ -20,12 +20,12 @@ namespace Decidir_SDK.RequestData
 
         public string getIDSITE()
         {
-            throw new NotImplementedException();
+            return this.IDSITE;
         }
 
         public string getIDTRANSACTIONSIT()
         {
-            throw new NotImplementedException();
+            return this.IDTRANSACTIONSIT;
         }
     }
 }

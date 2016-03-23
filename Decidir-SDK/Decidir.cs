@@ -14,13 +14,13 @@ namespace Decidir_SDK
 {
     public class Decidir
     {
-        private const string Version= "0.0.1";
+        private const string Version= "0.0.2";
 
         private AuthorizeConnector auth;
         private OperationConnector op;
 
-        private const String prd = "https://sps.decidir.com/services/t/1.1/";
-        private const String sdb = "https://sandbox.decidir.com/services/t/1.1/";
+        private const String prd = "https://sps.decidir.com/services/t/";
+        private const String sdb = "https://sandbox.decidir.com/services/t/";
         public const int production = 0;
         public const int sandbox = 1;
         private string endp = "";

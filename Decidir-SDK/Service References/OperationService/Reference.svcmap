@@ -20,10 +20,10 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="https://sandbox.decidir.com/services/t/1.1/Operation?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="https://sandbox.decidir.com/services/t/decidir.net/Operation?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Operation.wsdl" MetadataType="Wsdl" ID="ed4c752e-eb7d-432e-ad58-3ab25308cc2b" SourceId="1" SourceUrl="https://sandbox.decidir.com/services/t/1.1/Operation?wsdl" />
+    <MetadataFile FileName="Operation1.wsdl" MetadataType="Wsdl" ID="a08e6b9f-fc2e-474e-ba6f-a6c53d3c1c5b" SourceId="1" SourceUrl="https://sandbox.decidir.com/services/t/decidir.net/Operation?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
